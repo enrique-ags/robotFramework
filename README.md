@@ -2,7 +2,10 @@
 This is to execute automated testing using robot framework
 To start using robot framework, verify if system has installed the following packages:
 Type:
-pip list as shown below:
+
+pip list 
+
+as shown below:
 
 ![image](https://user-images.githubusercontent.com/12807393/235483581-0794039d-6435-47ed-a7af-14e36e629385.png)
 
@@ -20,4 +23,24 @@ pip install robotframework
 # to verify is properly installed:
 
 C:\Users\riotb>robot --version
+
 Robot Framework 6.0.2 (Python 3.10.11 on win32)
+# to install  robotframework-databaselibrary:
+
+pip install robotframework-databaselibrary
+
+# to install  pymssql:
+
+pip install pymssql
+
+# Installing SQL server developer edition:
+
+go to:
+
+https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+Once installed, follow the wizzard
+
+
+
+
