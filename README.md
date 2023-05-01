@@ -1,6 +1,10 @@
 # robotFramework
 This is to execute automated testing using robot framework
-To start using robot framework, verify if system has installed the following packages:
+To start using robot framework:
+Create a SQL user and enable SQL authentication mode for this new user
+
+verify if system has installed the following packages:
+
 Type:
 
 pip list 
