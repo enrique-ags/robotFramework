@@ -67,10 +67,19 @@ Select Host_name()
 
 to get the port:
 
+```sql
 USE MASTER
+
 GO
+
 xp_readerrorlog 0, 1, N'Server is listening on'
-GO
+
+GO 
+```
+
+
+![image](https://user-images.githubusercontent.com/12807393/235497027-1bab83ea-b7a6-4d1d-864a-ddea6ea2a81d.png)
+
 
 
 
