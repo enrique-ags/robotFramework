@@ -56,6 +56,19 @@ TCP is enabled
 
 ![image](https://user-images.githubusercontent.com/12807393/235490278-5ca815f3-e63a-4dfb-8a93-33cdb9408236.png)
 
+# Getting the Port and Host Name:
+
+to get the host name:
+
+Select Host_name()
+
+![image](https://user-images.githubusercontent.com/12807393/235496425-500c328f-63f3-4051-bbd2-287dc02185ab.png)
+
+
+to get the port:
+
+
+
 
 
 
