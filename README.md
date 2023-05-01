@@ -62,14 +62,14 @@ TCP is enabled
 
 # Getting the Port and Host Name:
 
-to get the host name:
+to get the host name, create a new SQL query and type sentence below:
 
 Select Host_name()
 
 ![image](https://user-images.githubusercontent.com/12807393/235496425-500c328f-63f3-4051-bbd2-287dc02185ab.png)
 
 
-to get the port:
+to get the port create a new SQL Query :
 
 ```sql
 USE MASTER
@@ -87,11 +87,41 @@ GO
 # To configure SQL authentication and create a new user:
 
 go to properties in SQL server as shown below:
+
 ![image](https://user-images.githubusercontent.com/12807393/235498613-48a35f84-60d3-4aa9-9e85-8e5a2ae7ed11.png)
 
 
 
 
+# Executing the robot code
+In order to execute the robot framework code just type robot and then . or the name of the file with .robot extension.
+
+For instance, our file is called DatabaseConnection.robot
+
+https://github.com/enrique-ags/robotFramework/blob/main/DatabaseConnection.robot
+
+Just type robot .
+ 
+or type:
+
+robot DatabaseConnection.robot
+
+![image](https://user-images.githubusercontent.com/12807393/235503692-3bb17f12-555e-4acc-bbd7-6ec821c8b9f5.png)
+
+
+
+
+
+# Verify the logs after execution:
+After execution of robot framework file, there are 2 useful files to review the logs related  to the test execution. Those files are going to be generated in the same folder where robot file its being executed.
+The file names are: 
+
+Report.html
+
+Log HTML
+![image](https://user-images.githubusercontent.com/12807393/235502919-b7d2f2d9-c058-4404-85ec-85f3d5259e2a.png)
+
+![image](https://user-images.githubusercontent.com/12807393/235503380-33c7bf9c-6877-462d-9707-87a64a9e7559.png)
 
 
 
