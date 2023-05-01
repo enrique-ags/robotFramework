@@ -67,6 +67,12 @@ Select Host_name()
 
 to get the port:
 
+USE MASTER
+GO
+xp_readerrorlog 0, 1, N'Server is listening on'
+GO
+
+
 
 
 
