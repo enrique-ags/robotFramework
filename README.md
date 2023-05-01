@@ -80,6 +80,13 @@ GO
 
 ![image](https://user-images.githubusercontent.com/12807393/235497027-1bab83ea-b7a6-4d1d-864a-ddea6ea2a81d.png)
 
+# To configure SQL authentication and create a new user:
+
+go to properties in SQL server as shown below:
+![image](https://user-images.githubusercontent.com/12807393/235498613-48a35f84-60d3-4aa9-9e85-8e5a2ae7ed11.png)
+
+
+
 
 
 
